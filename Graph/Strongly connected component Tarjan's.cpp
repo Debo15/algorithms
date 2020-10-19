@@ -15,6 +15,15 @@
 
 using namespace std;
 
+/*
+
+10/20/2020   1:20 AM (GTM +1)
+written by Iyad M. Alazzam
+this code's applying Tarjan's algorithm to get
+the strongly connected component(SCC->collection of cycles)
+to undirected graph.
+
+*/
 
 struct Graph {
 	// ids -> if it's equal by -1 then it's unvisited otherwise it's

@@ -1,17 +1,7 @@
 #include<iostream>
-#include<iomanip>
-#include<string>
 #include<vector>
-#include<map>
-#include<utility>
-#include<set>
 #include<algorithm>
-#include<cmath>
-#include<cstdio>
-#include <numeric>
 #include<stack>
-#include<list>
-
 
 using namespace std;
 
@@ -29,7 +19,7 @@ struct Graph {
 	// ids -> if it's equal by -1 then it's unvisited otherwise it's
 	int id, SCCSCount, n;
 	bool* inStack;
-	vector <vector<int>> g, SCCS;
+	vector <vector<int>> g, SCCS; // SCCS: you can find all strongly connected components here in this vector.
 	stack<int> stk;
 	int* low, * ids;
 

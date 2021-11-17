@@ -17,7 +17,7 @@ void insertionSort(T* arr, size_t size){
 }
 
 int main() {
-
+  // worst case senario o(n^2)
   int arr[] = {6, 3, 2, 9, 9, 10, 2, 23, -13, -4};
   size_t size = sizeof(arr)/sizeof(arr[0]);
 

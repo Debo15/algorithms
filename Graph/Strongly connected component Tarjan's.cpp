@@ -11,7 +11,7 @@ using namespace std;
 written by Iyad M. Alazzam
 this code's applying Tarjan's algorithm to get
 the strongly connected component(SCC->collection of cycles)
-to undirected graph.
+to directed graph.
 
 */
 
